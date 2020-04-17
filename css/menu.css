@@ -1,0 +1,51 @@
+:root {
+    --color--principal: #fa573a;
+
+    --color--secundario: #21242e;
+
+    --ancho: 100px;
+
+    --fuenteprincipal: "Montserrat", sans-serif;
+
+    --fuentesecundaria: "Handlee", cursive;
+
+    --anchomaximo: 75em;
+}
+
+main #menu {
+    background-color: var(--color--secundario);
+}
+
+
+section div div h2 {
+    color: white;
+}
+
+.container div nav ul {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+}
+
+section div div nav ul li {
+    width: 75%;
+    padding: 0.8em;
+    margin-bottom: 0.2em;
+}
+
+div nav ul .activado {
+    border-radius: 0.2em;
+    background-color: var(--color--principal);
+}
+
+section div div nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fuenteprincipal);
+}
+
+section div div nav ul li:hover {
+    background-color: var(--color--principal);
+    border-radius: 0.2em;
+}
