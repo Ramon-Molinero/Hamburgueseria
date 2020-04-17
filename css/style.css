@@ -76,6 +76,7 @@ header .nav-top a {
 
 header .nav-top a span {
     display: none;
+    font-size: 0.9em;
 }
 
 header .nav-top .row {
