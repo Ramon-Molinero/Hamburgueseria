@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hamburgueseria</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
@@ -34,13 +33,13 @@
                     <div>
                         <a href="#">
                             <i class="fas fa-shopping-cart"></i>
-                            <span>comprar</span>
+                            <span>Comprar</span>
                         </a>
                     </div>
                     <div>
                         <a href="#">
                             <i class="fas fa-user-circle"></i>
-                            <span>account</span>
+                            <span>Account</span>
                         </a>
                     </div>
 
@@ -61,7 +60,6 @@
                         <div></div>
                     </div>
                     <ul>
-                        <!-- li*6>a{item $} -->
                         <li><a href="index.html">Home</a></li>
                         <li><a class="active" href="menu.html">Menu</a></li>
                         <li><a href="blog.html">Blog</a></li>
@@ -71,57 +69,94 @@
 
         </header>
         <main>
-            <div id="menu" class="container-fluid">
-                <section>
-                    <div class="container-fluid">
-                        <div class="container">
-                            <h2>Todays <span>Menu</span></h2>
-                            <div class="underline">
-                                <hr noshade="noshade">
-                                <span>X</span>
-                            </div>
+            <section id="menu" class="container-fluid">
 
-                            <div class="menu-menu">
-                                <nav>
-                                    <ul>
-                                        <li class="activado">
-                                            <a href="#">Breakfast</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Lunch</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Dinner</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Others</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
+                <div class="container">
+                    <h2>Our <span>Services</span></h2>
+                    <div class="underline">
+                        <hr noshade="noshade">
+                        <span>X</span>
                     </div>
-                </section>
-                <section>
-                    <article>
-                        <h3>Today's Hott Offers</h3>
-                        <hr>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia suscipit eaque molestiae
-                            incidunt deleniti sed odio, nam, magni blanditiis voluptas sequi sunt, earum in aut minima
-                            maiores obcaecati ab officia!</p>
-                    </article>
-                    <article>
-                        <img src="" alt="">
+                </div>
 
-                        <h3>Chichen Burger with Cheese and Butter <span>$95</span></h3>
+                <div class="container-fluid row">
+                    <aside class="col-izq ">
+                        <article>
+                            <nav>
+                                <ul>
+                                    <li class="activado">
+                                        <a href="#">Breakfast</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Lunch</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dinner</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Others</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </article>
 
-                        <a href="#">Order Now <i class="fas fa-long-arrow-alt-right"></i></a>
 
-                    </article>
-                </section>
+                        <article>
+                            <h3>Today's Hot Offerts</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus pariatur modi
+                                velit?
+                            </p>
+
+                        </article>
+
+                    </aside>
+                    <div class="col-dchr">
+                        <article>
+                            <img src="./images/t1.jpg" alt="Hamburguesa Chicken">
+                            <div class="division">
+                                <h3>Chicken Burger With Cheese and Butter <span>$95</span></h3>
+                                <p>Vegetable and chicken burguer with cheese</p>
+                                <a class="enlace" href="">Order Now<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </article>
 
 
-            </div>
+                        <article>
+                            <img src="./images/t4.jpg" alt="Hamburguesa Chicken">
+                            <div class="division">
+                                <h3>Chicken Burger With Cheese and Butter <span>$95</span></h3>
+                                <p>Vegetable and chicken burguer with cheese</p>
+                                <a class="enlace" href="">Order Now<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/t3.jpg" alt="Hamburguesa Chicken">
+                            <div class="division">
+                                <h3>Chicken Burger With Cheese and Butter <span>$95</span></h3>
+                                <p>Vegetable and chicken burguer with cheese</p>
+                                <a class="enlace" href="">Order Now<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/t2.jpg" alt="Hamburguesa Chicken">
+                            <div class="division">
+                                <h3>Chicken Burger With Cheese and Butter <span>$95</span></h3>
+                                <p>Vegetable and chicken burguer with cheese</p>
+                                <a class="enlace" href="">Order Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </article>
+
+
+                    </div>
+
+                </div>
+
+                <a class="scroll" href="#menu"><i class="fas fa-chevron-up"></i></a>
+
+
+            </section>
+
         </main>
         <footer class="container-fluid">
             <p>Copyright &copy; 2020 - <a href="#">Aviso Legal</a> - <a href="#">Cookies</a></p>

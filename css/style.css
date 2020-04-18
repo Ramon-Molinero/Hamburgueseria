@@ -299,7 +299,7 @@ main section .row article {
     border-bottom: 1px solid #aaa;
 }
 
-main section article div i {
+main section#ourservices article div i {
     color: var(--color--principal);
     font-size: 2em;
     padding: 0.8rem;
