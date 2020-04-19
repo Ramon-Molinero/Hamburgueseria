@@ -20,8 +20,8 @@ main #menu div h2 {
     color: white;
 }
 
-main div.container-fluid {
-    width: 75%;
+main div.container-fluid.row {
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -82,7 +82,7 @@ div.col-dchr article {
 div.col-dchr article span {
     color: var(--color--principal);
     font-weight: 200;
-    margin-left: 1.2em;
+    margin-left: 0.4em;
     font-size: 1.2em;
 }
 
