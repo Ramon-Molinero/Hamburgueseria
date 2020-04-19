@@ -21,7 +21,7 @@ main #menu div h2 {
 }
 
 main div.container-fluid.row {
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -89,7 +89,7 @@ div.col-dchr article span {
 .scroll {
     position: sticky;
     bottom: 0px;
-    left: 100%;
+    left: 96%;
     padding: 0.6em;
     border-radius: 0.2em;
     background-color: var(--color--principal);

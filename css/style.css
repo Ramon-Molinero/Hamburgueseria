@@ -59,6 +59,10 @@ img {
     width: 100%;
 }
 
+div.wrapper {
+    margin: 0 auto;
+}
+
 /* inicio header */
 
 header .nav-top {
