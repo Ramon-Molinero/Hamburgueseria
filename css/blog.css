@@ -43,3 +43,26 @@ main section#blog div.row article h4 {
     color: var(--color--principal);
     margin-bottom: 1em;
 }
+
+
+@media (min-width: 48em) {
+
+    main section#blog {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    main section#blog .row article {
+        width: 33.33%;
+
+    }
+
+}
+
+
+@media (min-width: 62.75em) {
+    main section#blog .row article {
+        width: 25%;
+
+    }
+}
