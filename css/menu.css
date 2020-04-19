@@ -14,6 +14,7 @@
 
 main section#menu {
     background-color: var(--color--secundario);
+    overflow: auto;
 }
 
 main #menu div h2 {
@@ -88,15 +89,24 @@ div.col-dchr article span {
 
 .scroll {
     position: sticky;
+    top: 0;
+    left: 90%;
+
+    /* position: sticky;
     bottom: 0px;
-    left: 96%;
+    right: 0px;
     padding: 0.6em;
+
     border-radius: 0.2em;
-    background-color: var(--color--principal);
+    background-color: var(--color--principal); */
 }
 
 .scroll i {
     color: white;
+    border-radius: 0.2em;
+    padding: 0.6em;
+
+    background-color: var(--color--principal);
 }
 
 
@@ -161,6 +171,20 @@ div.col-dchr article span {
         margin-bottom: 0;
 
     }
+
+    .scroll {
+        position: sticky;
+        top: 0;
+        left: 94%;
+
+        /* position: sticky;
+        bottom: 0px;
+        right: 0px;
+        padding: 0.6em;
+    
+        border-radius: 0.2em;
+        background-color: var(--color--principal); */
+    }
 }
 
 
@@ -173,13 +197,28 @@ div.col-dchr article span {
     }
 
     .col-izq {
-        width: 40%;
+        width: 30%;
     }
 
     .col-dchr {
-        width: 55%;
+        width: 65%;
         margin-left: 2em;
     }
+
+    .scroll {
+        position: sticky;
+        top: 0;
+        left: 97%;
+
+        /* position: sticky;
+        bottom: 0px;
+        right: 0px;
+        padding: 0.6em;
+    
+        border-radius: 0.2em;
+        background-color: var(--color--principal); */
+    }
+
 
 
 }
